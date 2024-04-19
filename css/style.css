@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "Mont";
+    src: url('../fonts/static/Montserrat-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: "OpenS";
+    src: url('../fonts/Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
+}
+
+
+
+
+*{
+    font-family: 'Mont';
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    width: 70%;
+    padding: 30px;
+}
+input{
+    height: 20px;
+    margin-left: 10px;
+
+}
+.bi-search{
+    position: absolute;
+    left: 100px;
+    top: 40px;
+    z-index: 2;
+    font-weight: 700;
+}
+.btn{
+    background-color: #008ccc;
+    display: inline-block;
+    font-size: 12px;
+    padding: 4px 8px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.post-image{
+    width: 100%;
+}
+.title{
+    font-family: 'OpenS';
+    font-size: 36px;
+    margin-bottom: 20px;
+
+}
+.post-info{
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 20px;
+}
+.text{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.card{
+    margin-bottom: 20px;
+    width: 90%;
+}
+.img-info{
+    font-size: 12px;
+    color: gray;
+    text-align: center;
+}
+.icons-list{
+    list-style: none;
+    display: flex;
+    /* flex-direction: row; */
+}
+.list-item{
+    padding: 5px 18px;
+    /* border: 1px solid red; */
+    margin: 0 2px;
+    background-color: #008ccc;
+    color: white;
+    border-radius: 2px;
+}
+.list-item i{
+    color: white;
+
+}
